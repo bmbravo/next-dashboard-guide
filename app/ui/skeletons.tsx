@@ -216,3 +216,11 @@ export function InvoicesTableSkeleton() {
     </div>
   );
 }
+
+export const PokemonSkeleton = () => {
+  return (
+    <div
+      className={`${shimmer} relative overflow-hidden h-[100px] w-full bg-gray-100 rounded-lg flex justify-center items-center mb-4`}
+    />
+  );
+};
